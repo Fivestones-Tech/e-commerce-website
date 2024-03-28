@@ -1,0 +1,1 @@
+import{j as r,F as t}from"./index-29c6ebea.js";import{P as o}from"./Product-90981079.js";import{D as a}from"./DefaultLayout-d466fc47.js";import"./index-ec3bfb26.js";const u=()=>r(t,{children:r(a,{children:r(o,{})})});export{u as default};
