@@ -34,7 +34,7 @@ const ContactPage = () => {
         // sending the mail
         try{
            if (isEmailValid) {
-            await emailjs.sendForm('service_fxvcxyj', 'template_vggxabq', form, 'CC6qrRtlQzRCdePxS');
+            await emailjs.sendForm('srvice_fxvcxyj', 'template_vggxabq', form, 'CC6qrRtlQzRCdePxS');
             setLoading(false);
             setSuccessful(true);
             setMessage("Message sent Successfully.");
@@ -93,8 +93,8 @@ const ContactPage = () => {
                     <div className="contact-information" style={{color: context.theme === 'light' ? null : '#FFF'}}>
                         <h2>Contact Informations</h2>
                     <ol>
-                        <li> <span>Phone: </span>+2347019665230</li>
-                        <li> <span>Email: </span>lasisiabdulsamad7@gmail.com</li>
+                        <li> <span>Phone: </span>+2349083387814</li>
+                        <li> <span>Email: </span>Folaweogunnaike@gmail.com</li>
                     </ol>
                     </div>
                 </div>
